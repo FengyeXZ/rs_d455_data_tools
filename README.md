@@ -18,11 +18,11 @@
 ### 依赖项
 
 ```
-numba==0.61.0
-numpy==2.2.4
-opencv_python==4.11.0.86
-pyrealsense2==2.55.1.6486
-tqdm==4.67.1
+numba
+numpy
+opencv_python
+pyrealsense2
+tqdm
 ```
 
 ### 安装步骤
@@ -37,9 +37,6 @@ tqdm==4.67.1
    ```
    pip install -r requirements.txt
    ```
-
-3. 安装Intel RealSense SDK：
-   - 访问[Intel RealSense SDK页面](https://github.com/IntelRealSense/librealsense/releases)下载并安装适合您系统的SDK版本
 
 ## 使用方法
 
