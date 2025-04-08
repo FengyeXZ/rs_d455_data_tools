@@ -1,3 +1,8 @@
+"""
+Author: Shang Xu
+Feel free to use this code for your own purposes, but please give credit to the original author.
+"""
+
 import cv2
 import numpy as np
 from pyk4a import PyK4A, Config, ColorResolution, DepthMode, ImageFormat, FPS

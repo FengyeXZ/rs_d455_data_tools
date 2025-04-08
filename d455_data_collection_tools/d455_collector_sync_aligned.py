@@ -1,3 +1,8 @@
+"""
+Author: Shang Xu
+Feel free to use this code for your own purposes, but please give credit to the original author.
+"""
+
 import pyrealsense2 as rs
 from queue import Queue
 from threading import Thread, Event
@@ -20,7 +25,7 @@ OUTPUT_DIR      = "rs_d455_sync"        # 输出目录
 CLEAN_LAST      = True                  # 是否清空上次的输出目录
 RECORD          = True                  # 是否保存数据
 VISUALIZE       = True                  # 是否可视化
-PRESET          = 1                     # 高精度模式下的预设
+PRESET          = 1                     # 默认模式下的预设
 MIN_DISTANCE    = 0.4                   # 最小深度距离(米)
 MAX_DISTANCE    = 6.0                   # 最大深度距离(米)
 

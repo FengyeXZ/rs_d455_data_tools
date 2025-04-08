@@ -1,3 +1,8 @@
+"""
+Author: Shang Xu
+Feel free to use this code for your own purposes, but please give credit to the original author.
+"""
+
 import pyrealsense2 as rs
 from queue import Queue
 from threading import Thread
